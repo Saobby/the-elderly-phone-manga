@@ -92,7 +92,7 @@
 9. 切换到该目录
 10. 执行
     ```bash
-    docker compose up
+    docker compose up -d
     ```
     Docker 应该会自己拉取所需要的镜像并启动容器
 11. 如果你的服务器有防火墙或者安全组设置，请开放端口`5025`
